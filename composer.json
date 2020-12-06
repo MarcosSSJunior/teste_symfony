@@ -24,7 +24,9 @@
         "symfony/yaml": "5.2.*"
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.24"
+        "phpunit/phpunit": "^9.5",
+        "symfony/maker-bundle": "^1.24",
+        "symfony/phpunit-bridge": "^5.2"
     },
     "config": {
         "optimize-autoloader": true,
